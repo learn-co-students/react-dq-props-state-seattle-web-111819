@@ -47,10 +47,10 @@ export default class BabyHog extends Component {
         <h3>Hobby: {this.props.baby.hobby}</h3>
         <h4>Eye Color: {this.props.eyeColor}</h4>
           
-        <Button name="+" onClick={(event) => this.changeWeight(event)}>
+        <Button name="+" onClick={this.changeWeight}>
           Increase Weight
         </Button>
-        <Button name="-" onClick={(event) => this.changeWeight(event)}>
+        <Button name="-" onClick={this.changeWeight}>
           Decrease Weight
         </Button>
 

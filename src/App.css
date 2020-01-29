@@ -79,7 +79,14 @@ body {
 .hb-wrap {
   min-width: 280px;
   min-height: 200px;
+  animation: Teeter-Totter 10s infinite ease-in-out;
+  
 }
+
+.hb-wrap img {
+  animation: blast 10s infinite ease-in-out;
+}
+
 
 @keyframes Teeter-Totter {
   0% {transform: rotateZ(10deg) translateX(-120px);}
